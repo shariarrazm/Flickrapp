@@ -1,9 +1,9 @@
 //
-//  BSLoader.swift
-//  Brainstorage
+//  SwiftLoader.swift
+//  FlickrApp
 //
-//  Created by Kirill Kunst on 07.02.15.
-//  Copyright (c) 2015 Kirill Kunst. All rights reserved.
+//  Created by Shariar Razm1 on 2018-06-22.
+//  Copyright © 2018 Shariar Razm. All rights reserved.
 //
 
 import UIKit
@@ -30,7 +30,7 @@ public class SwiftLoader: UIView {
         }
     }
     
-    func rotated(notification: NSNotification) {
+    @objc func rotated(notification: NSNotification) {
         
         let loader = SwiftLoader.sharedInstance
         
